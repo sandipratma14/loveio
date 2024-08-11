@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .sacca{
+            transform: translate(33%,28%);
+        }
+        .home{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
+<div class="home">
+    <h1>Selamat Datang di Halaman Home</h1>
+</div>
+<div class="sacca">
+    <table border="1">
+        <tr>
+            <td>
+                <img id="myImage" src="uu.jpg" alt="Gambar" height="400" width="500" nstyle="border: 2px solid black;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="hideImage()">Hide</button>
+                <button onclick="showImage()">Show</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script>
+    function hideImage() {
+        document.getElementById("myImage").style.display = "none";
+    }
+
+    function showImage() {
+        document.getElementById("myImage").style.display = "block";
+    }
+</script>
+
+</body>
+</html>
