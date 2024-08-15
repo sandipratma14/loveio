@@ -7,16 +7,13 @@
     <style>
         body{
             background-color: black;
+            display: flex;
         }
-        .sa{
-            transform: translate(81%,-300%);
-        }
-        .cc{
-            transform: translate(81%,-300%);
-        }
-        .ca{
-            transform: translate(81%,-300%);
-        }
+        @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
     </style>
 </head>
 <body>
@@ -37,11 +34,7 @@
     </div>
     <div class="sa">
         <img id="s" src="sacca10.jpg" alt="Gallery" height="300" width="400">
-    </div>
-    <div class="cc">
         <img id="a" src="sacca11.jpg" alt="Gallery" height="300" width="400">
-    </div>
-    <div class="ca">
         <img id="c" src="sacca12.jpg" alt="Gallery" height="300" width="400">
     </div>
 </body>
